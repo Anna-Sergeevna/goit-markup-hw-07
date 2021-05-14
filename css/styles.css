@@ -69,6 +69,12 @@ img {
   padding: 0;
   margin: 0;
 }
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 /* #endregion Утилиты */
 
 /* #region Шапка сайта - HEADER */
@@ -92,12 +98,6 @@ img {
 }
 .header-page__logo {
   margin-right: 93px;
-}
-
-.container {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
 }
 
 .header-page__container {
