@@ -5,6 +5,7 @@
     margin-right: 10px;
   }
   &__link {
+    @extend %centered-flex;
     width: 44px;
     height: 44px;
     justify-content: center;

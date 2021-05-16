@@ -1,3 +1,12 @@
+.footer-page__container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-page__contact {
+  margin-right: 70px;
+}
+
 .footer-contact {
   max-width: 231px;
   margin-top: 20px;
@@ -22,5 +31,17 @@
   &__link:hover,
   &__link:focus {
     color: var(--accent-color);
+  }
+}
+
+.f-socia {
+  margin-right: 93px;
+
+  &__title {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
   }
 }

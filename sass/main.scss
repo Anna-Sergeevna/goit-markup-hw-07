@@ -2,22 +2,21 @@
 @import "./utils/base";
 @import "./utils/mixin";
 @import "./utils/placeholder";
-@import "./components/container";
-@import "./components/section";
-@import "./components/nav";
+
 @import "./components/logo";
 @import "./components/h-contact";
-@import "./components/hero";
 @import "./components/modal";
 @import "./components/form";
-@import "./components/section_features";
-@import "./components/section_specification";
-@import "./components/section_team";
 @import "./components/socia";
-@import "./components/section_clients";
-@import "./components/footer-page";
-@import "./components/footer-contact";
-@import "./components/f-socia";
-@import "./components/subscription";
-@import "./components/services";
-@import "./components/projects";
+
+@import "./layout/container";
+@import "./layout/section";
+@import "./layout/nav";
+@import "./layout/section_hero";
+@import "./layout/section_features";
+@import "./layout/section_specification";
+@import "./layout/section_team";
+@import "./layout/section_clients";
+@import "./layout/footer-contact";
+@import "./layout/footer_subscription";
+@import "./layout/section_portfolio";

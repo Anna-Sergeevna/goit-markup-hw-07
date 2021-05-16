@@ -55,6 +55,7 @@
     color: rgba(117, 117, 117, 0.5);
   }
   &__checkbox {
+    @extend %centered-flex;
     margin-top: 20px;
     margin-bottom: 30px;
     font-size: 14px;

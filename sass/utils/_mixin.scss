@@ -11,12 +11,12 @@ body {
   @include section-bg(var(--bg-header-footer-color));
 }
 
-@mixin section-padding($top, $bottom) {
+@mixin section-padding($top: 94px, $bottom: 94px) {
   padding-top: $top;
   padding-bottom: $bottom;
 }
 .section {
-  @include section-padding(94px, 94px);
+  @include section-padding();
 }
 .section--specification {
   @include section-padding($top: 0);
@@ -35,50 +35,12 @@ body {
   @include logo__text(var(--primary-white-color));
 }
 
-@mixin centered-flex($type: flex, $disposition: center) {
-  display: $type;
-  align-items: $disposition;
-}
-.header-page__container {
-  @include centered-flex();
-}
-.nav {
-  @include centered-flex();
-}
-.h-contact__link {
-  @include centered-flex();
-}
-.form__checkbox {
-  @include centered-flex();
-}
-.features {
-  @include centered-flex();
-}
-.features__bg {
-  @include centered-flex();
-}
-.specification__title {
-  @include centered-flex();
-}
-.socia__link {
-  @include centered-flex();
-}
-.clients__link {
-  @include centered-flex();
-}
-.footer-page__container {
-  @include centered-flex($disposition: baseline);
-}
-.subscription > .button {
-  @include centered-flex($type: inline-flex);
-}
-
 @mixin socia__link($fill, $bg) {
   fill: $fill;
   background-color: $bg;
 }
 .socia__link {
-  @include socia__link(var(--fill-icon));
+  @include socia__link(var(--fill-icon), inherit);
 }
 .socia__link--bg-white {
   @include socia__link(var(--primary-white-color), rgba(255, 255, 255, 0.1));
